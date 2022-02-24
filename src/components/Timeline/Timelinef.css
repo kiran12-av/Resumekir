@@ -1,0 +1,75 @@
+.timeline{
+    padding:0px !important;
+
+}
+
+
+.timeline .timeline_header{
+    padding-top:40px;
+}
+
+
+.timeline .timeline_firstItem{             /* length of the line */
+    min-height: 60px !important;
+    padding-top: 0px;  /* moving profile down*/
+}
+      /*
+
+.timeline .timeline_SecondItem{    length of the line 
+    min-height: 10px;
+}
+
+.timeline .timeline_ThirdItem{             /* length of the line 
+    min-height: 60px;
+}
+
+.timeline .MuiTimelineContent-root{
+    min-height: 0px;
+   
+}*/
+
+
+.timeline .MuiTimelineItem-missingOppositeContent:before{        /* moving to right*/
+    display: none; 
+   
+  }
+
+  .timeline .timeline_dot_header{
+    color:black !important;
+    background-color:var(--main-color) !important;            /*header dot variations*/
+    padding: 5px !important;
+    font-size: small !important;
+ 
+}
+
+
+
+.timeline .timeline_dot {
+    border-color:var(--main-color) !important;
+    background-color: white !important;
+    padding: 1.5px !important;                 /*     other dots */
+ 
+} 
+
+
+
+
+
+
+
+
+.timeline .MuiTimelineConnector-root{             
+    background-color:#eee !important;               /* line color */
+}
+
+
+.timeline .timeline_dot_header> .MuiSvgIcon-root{
+
+    font-size: 20px;                                     /* creating the class and updating the icon */
+    color: darkslategray;
+}
+
+.timeline .separator_padding{
+
+    padding-left: 12px;
+}
