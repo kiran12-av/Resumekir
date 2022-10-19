@@ -44,7 +44,7 @@ const Profile = () => {
             </div>
 
             <div className='profile_image'>
-        <img src='/assets/images/youngman.jpg' alt="" ></img>
+        <img src='/assets/images/dboss.jpg' alt="" ></img>
                 
             </div>
 
