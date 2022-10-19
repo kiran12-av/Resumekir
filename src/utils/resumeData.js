@@ -11,12 +11,12 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import LanguageIcon from '@material-ui/icons/Language';
 
 export default {
-    name: 'Kiran',
-    title: 'Kiran is tester',
+    name: ' Kiran',
+    title: ' Kiran is tester',
 
     birthday: '25th Dec 1987',
-    email: "kiran12.av@gmail.com",
-    address: "123 Chunchgttt SBM",
+    email: " kiran12.av@gmail.com",
+    address: " 123 Chunchgttt SBM",
     phone: "111 222 333",
 
     socials: {

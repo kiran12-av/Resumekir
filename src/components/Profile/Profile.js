@@ -50,9 +50,9 @@ const Profile = () => {
 
             <div className="profile_information">
                 <CustomTimeline icon={<PersonOutlineIcon />} >
-                <CustTimeLnSep1 title="Name " text={resumeData.name}/>
-                <CustTimeLnSep1 title="Title " text={resumeData.title}/>
-                <CustTimeLnSep1 title="Email " text={resumeData.email}/>
+                <CustTimeLnSep1 title="Name" text={resumeData.name}/>
+                <CustTimeLnSep1 title="Title" text={resumeData.title}/>
+                <CustTimeLnSep1 title="Email" text={resumeData.email}/>
                 {Object.keys(resumeData.socials).map((key)=>(
                     <CustTimeLnSep1 title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
                 ))}
